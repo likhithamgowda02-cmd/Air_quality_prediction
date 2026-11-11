@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load the trained machine learning model
-model = joblib.load("air_quality_model.pkl")
+model = joblib.load("air_quality_model_compressed.pkl")
 features = joblib.load("air_quality_features.pkl")
 
 # Configure the application
